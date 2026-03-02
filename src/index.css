@@ -36,8 +36,7 @@ body {
     @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
 }
 
-@utility text-gradient {
-    background: linear-gradient(to bottom, #ffffff, #898989);
+@utility text-gradient { background: linear-gradient(to bottom, #ffffff, #898989);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
